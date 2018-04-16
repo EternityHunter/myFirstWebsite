@@ -1,159 +1,76 @@
 * {
 box-sizing:border-box;
 background-color: #f4f4f4;
-colo
+color: black;
 }
 
 .Email{
-margin-left:85px;
-
+margin-top: 5%;
+margin-left:9%;
+font-size: 18px;
 }
+
 .title{
   font-size:44px;
-  margin-left: 80px;
+  margin-left: 8.5%;
 }
 .header-list li{
 display:inline-flex;
 justify-content:center;
-margin-left: 80px;
-padding-right:45px;
+margin-left:8.5%;
+padding-right:10%;
 font-size:18px;
 }
 
 body{
-color:black
 width:70%;
-margin 0 auto;
 }
 
-.website-name{
-  display:flex;
-  justify-content: center;
-  font-family: Castellar, fantasy;
-  font-size:32px;
-}
-
-.website-namept{
-  display:flex;
-  justify-content:center;
-  font-size: 20px;
-}
-.main-nav{
-  background:#706767;
-  padding:13px;
-  font-size: 18px;
-}
-.nav{
-  display: flex;
-  justify-content:space-between;
-  margin-left:5%;
-  margin-right: 5%;
-  flex-wrap: wrap;
-
-
-}
-a {
-  color: white;
-}
-header{
-  margin:auto;
-  padding-top:40px;
+.Image{
+  display:left;
+  margin-top: 100px;
+  margin-left: 150px;
+  margin-right: auto;
+  width:375px;
+  height:375px;
+  border-radius: 50%;
+  transition-duration: .35s;
+  transition-property: transform;
 
 }
 
-.profile-image{
-display:left;
-margin-top: 100px;
-margin-left: 150px;
-margin-right: auto;
-width:375px;
-height:375px;
-border-radius: 50%;
-transition-duration: .35s;
-transition-property: transform;
-}
-.Resume-image{
-display:left;
-margin-top: 100px;
-margin-left: 150px;
-margin-right: auto;
-width:375px;
-height:375px;
-border-radius: 50%;
-transition-duration: .35s;
-transition-property: transform;
-}
-.Work-image{
-display:left;
-margin-top: 100px;
-margin-left: 150px;
-margin-right: auto;
-width:375px;
-height:375px;
-border-radius: 50%;
-transition-duration: .35s;
-transition-property: transform;
-}
-.Skills-image{
-display:left;
-margin-top: 100px;
-margin-left: 150px;
-margin-right: auto;
-width:375px;
-height:375px;
-border-radius: 50%;
-transition-duration: .35s;
-transition-property: transform;
-}
-
-.profile-image:hover{
-  transform: rotate(720deg);
-}
-.Resume-image:hover{
-  transform: rotate(720deg);
-}
-.Work-image:hover{
-  transform: rotate(720deg);
-}
-.Skills-image:hover{
+.Image:hover{
   transform: rotate(720deg);
 }
 
 .tag-name{
-  color:black;
   display:block;
-  justify-content: space-between;
-  margin-top:-475px;
-  margin-left:45%;
-  font-size:72px;
+  justify-content: center;
+  margin-top:-40%;
+  margin-left: 60%;
+  font-size:56px;
   font-style: bold;
 }
-.info-bio{
-  font-size: 48px;
-  font-style: italic;
-  margin-top: -12px
 
-}
 .body-list{
-  display:flex;
+  display:-webkit-box;
   justify-content: center;
-  margin-left:300px;
   font-size:20px;
-  white-space: nowrap;
+  margin-left:60%;
 }
 
 .body-list li {
-  display: inline-flex;
+  display:grid;
   justify-content: center;
   background-color: grey;
   border-radius: 50%;
   width: 50px;
   height: 50px;
-  padding:65px;
-  margin-right:25px;
-  margin-left: 25px;
-
+  padding:20%;
 }
+ .bubbles{
+   margin-right:10%;
+ }
 a{
   color: black;
   text-decoration: none;
@@ -163,20 +80,21 @@ a{
   display:inline-block;
   justify-content:center;
   text-align: center;
+  margin-top: 5%;
+margin-left: 56%;
+width: 64%;
   font-size:18px;
 }
+
+i{
+margin-left: 10px;
+    font-size: 30px;
+    height: 30px;
+    vertical-align: middle;}
+
+    
 .Resume ,
-.work{
-  display:inline-block;
-  justify-content:center;
-  font-size:18px;
-}
-.Work{
-  display:inline-block;
-  justify-content:center;
-  text-align: center;
-  font-size:18px;
-}
+.Work ,
 .Skills{
   display:inline-block;
   justify-content:center;
@@ -184,35 +102,8 @@ a{
   font-size:18px;
 }
 
-.container {
-  height: 600px;
-}
-
-.container .img{
-  width: 29%;
-  display: inline-block;
-
-}
-.container img{
-  max-width: 100%;
-  max-height: 100%;
-}
-
-
-.container h1{
-  width: 69%;
-  display: inline-block;
-}
-
-
 
 @media (max-width: 769px) {
-
-  .website{
-    width:100%;
-    margin: 0 auto;
-  }
-
 
   .container h1 {
     display: block;
