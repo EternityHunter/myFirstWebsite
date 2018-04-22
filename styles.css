@@ -3,6 +3,19 @@ box-sizing:border-box;
 background-color: #f4f4f4;
 color: black;
 }
+ body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom:7%;
+}
+.footer,
+.push {
+  height: 50px;
+}
 
 .Email{
 margin-top: 5%;
@@ -27,7 +40,6 @@ width:70%;
 }
 
 .Image{
-  display:left;
   margin-top: 100px;
   margin-left: 150px;
   margin-right: auto;
@@ -86,28 +98,38 @@ width: 64%;
   font-size:18px;
 }
 
-i{
-margin-left: 10px;
-    font-size: 30px;
-    height: 30px;
-    vertical-align: middle;}
 
-    
+
+
 .Resume ,
 .Work ,
 .Skills{
-  display:inline-block;
+  display:block;
   justify-content:center;
   text-align: center;
+  margin-left: 60%;
   font-size:18px;
 }
-
+.Resume{
+  margin-top:-20%;
+}
+.Work{
+  margin-top:-30%;
+}
+.Work-image{
+  margin-top:30%;
+}
+.Skills-image{
+  margin-top:25%;
+}
+.Skills-list{
+margin-top: -70%;
+}
 
 @media (max-width: 769px) {
 
   .container h1 {
     display: block;
-  }
 
 }
 
